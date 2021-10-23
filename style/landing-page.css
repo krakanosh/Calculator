@@ -1,0 +1,102 @@
+@import "normalize.css";
+@import "base.css";
+@import "container.css";
+@import "header.css";
+@import "footer.css";
+
+.landing-page {
+    padding-top: 60px;
+    flex: 1 1 auto;
+}
+.calcilate__wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+.calcilate__container {
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.input__output {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.num1,
+.num2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    width: 412px;
+    height: 40px;
+    font-size: 36px;
+}
+
+.math {
+    margin: 10px 0 10px 0;
+}
+
+#plus,
+#minus,
+#times,
+#divide {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#plus:hover {
+    border: solid rgb(187, 187, 187) 1px;
+}
+#minus:hover {
+    border: solid rgb(187, 187, 187) 1px;
+}
+#times:hover {
+    border: solid rgb(187, 187, 187) 1px;
+}
+#divide:hover {
+    border: solid rgb(187, 187, 187) 1px;
+}
+
+.result__container {
+    display: flex;
+    align-items: center;
+}
+
+.sum {
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+#result {
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+.sum {
+    box-shadow: 2px 2px 15px rgb(160, 159, 159);
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+@media (max-width: 1200px) {
+    .landing-page {
+    }
+}
+@media (max-width: 992px) {
+    .landing-page {
+    }
+}
+@media (max-width: 768px) {
+    .landing-page {
+    }
+}

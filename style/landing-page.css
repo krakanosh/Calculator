@@ -80,23 +80,11 @@
     height: 40px;
     margin-top: 20px;
     transition: transform 0.2s;
+    color: black;
 }
 
 .sum {
     box-shadow: 2px 2px 15px rgb(160, 159, 159);
     transform: scale(1.1);
     transition: transform 0.2s;
-}
-
-@media (max-width: 1200px) {
-    .landing-page {
-    }
-}
-@media (max-width: 992px) {
-    .landing-page {
-    }
-}
-@media (max-width: 768px) {
-    .landing-page {
-    }
 }
